@@ -1,0 +1,61 @@
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 50px;
+	min-width: 185px;
+	background-color: var(--button-background-color);
+	color: var(--button-color);
+	border: 1px solid var(--button-border-color);
+	border-radius: 20px;
+	box-shadow: 3px 3px 5px;
+	transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.button:focus,
+.button:hover {
+	color: var(--button-hover-color);
+	background-color: var(--button-hover-background-color);
+}
+
+.button:active {
+	transform: scale(0.95) translateY(3px);
+	box-shadow: 1px 1px 5px;
+}
+
+.button_reset {
+	background: var(--reset-button-background-color)
+		url(./../../img/index/search/trash.svg) no-repeat center / contain;
+	border-color: var(--reset-button-border-color);
+}
+
+.button_reset:focus,
+.button_reset:hover {
+	background-color: var(--reset-button-hover-background-color);
+}
+
+.button_submit[type='submit'] {
+	background-color: var(--button-background-color);
+}
+
+.button_submit[type='submit']:focus,
+.button_submit[type='submit']:hover {
+	background-color: var(--button-hover-background-color);
+}
+
+.button_previous {
+	background-color: var(--previous-button-background-color);
+	border-color: var(--previous-button-border-color);
+}
+
+.button_previous:focus,
+.button_previous:hover {
+	color: var(--previous-button-hover-color);
+}
+
+@media (max-width: 479.98px) {
+	.button {
+		min-width: 45%;
+		padding: 15px 5px;
+	}
+}

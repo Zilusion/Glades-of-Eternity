@@ -1,0 +1,8 @@
+.footer {
+	padding: 20px 0;
+	background: var(--footer-background-color);
+}
+
+.footer__text {
+	font-size: 20px;
+}

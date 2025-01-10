@@ -1,0 +1,103 @@
+body {
+	font: 400 24px/1.3 Nunito, sans-serif;
+	color: var(--color);
+	background-color: var(--background-color);
+}
+
+@media (min-width: 991.98px) {
+	::-webkit-scrollbar {
+		width: 0px;
+		background: transparent;
+		display: none;
+	}
+
+	html {
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.none {
+	display: none !important;
+}
+
+.visually-hidden {
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+	display: block;
+	margin-left: -10000px;
+	background: transparent;
+	font-size: 0;
+}
+
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+.section-title {
+	font: 700 35px/1.3 Roboto, sans-serif;
+}
+
+.no-scroll {
+	overflow: hidden;
+	scrollbar-width: none;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1200px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.container {
+		width: 992px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.container {
+		width: 768px;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 767.98px) {
+	.container {
+		width: 480px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 479.98px) {
+	.container {
+		width: 320px;
+	}
+}
+
+@media (max-width: 992px) {
+	body {
+		font-size: 20px;
+	}
+
+	.section-title {
+		font-size: 30px;
+	}
+}
+
+.path {
+	margin-top: 20px;
+	font-size: 18px;
+	color: #777;
+}
+
+.path-link {
+	color: #067bc0;
+}

@@ -1,0 +1,12 @@
+body.australian-mode {
+	rotate: 180deg;
+}
+
+.australian-mode .header {
+	bottom: 0;
+	top: auto;
+}
+
+.australian-mode .hero__container {
+	min-height: 90vh;
+}

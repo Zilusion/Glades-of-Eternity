@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Анисимов Артём Сергеевич</title>
+		<!--Base-->
+		<link rel="stylesheet" href="./../../css/general/reset.css" />
+		<link rel="stylesheet" href="./../../css/general/theme.css" />
+		<link rel="stylesheet" href="./../../css/general/base.css" />
+		<link rel="stylesheet" href="./../../css/general/button.css" />
+		<link rel="stylesheet" href="./../../css/general/waves.css" />
+
+		<!--BLocks-->
+		<link
+			rel="stylesheet"
+			href="./../../css/burial-pages/burial-page.css"
+		/>
+
+		<!--Fonts-->
+		<link rel="stylesheet" href="./../../fonts/Nunito/nunito.css" />
+		<link rel="stylesheet" href="./../../fonts/Roboto/roboto.css" />
+
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./../../favicon/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./../../favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./../../favicon/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="./../../favicon/site.webmanifest" />
+		<link
+			rel="mask-icon"
+			href="./../../favicon/safari-pinned-tab.svg"
+			color="#5bbad5"
+		/>
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="theme-color" content="#ffffff" />
+	</head>
+
+	<body>
+		<div class="wave-container">
+			<div class="waveWrapper waveAnimation">
+				<div class="waveWrapperInner bgTop">
+					<div
+						class="wave waveTop"
+						style="
+							background-image: url('./../../img/general/waves/wave-top.png');
+						"
+					></div>
+				</div>
+				<div class="waveWrapperInner bgMiddle">
+					<div
+						class="wave waveMiddle"
+						style="
+							background-image: url('./../../img/general/waves/wave-mid.png');
+						"
+					></div>
+				</div>
+				<div class="waveWrapperInner bgBottom">
+					<div
+						class="wave waveBottom"
+						style="
+							background-image: url('./../../img/general/waves/wave-bot.png');
+						"
+					></div>
+				</div>
+			</div>
+		</div>
+		<div class="container burial-page__container">
+			<p class="path">
+				<a href="./../../index.html" class="path-link">Главная</a> &lt;
+				<a href="./../search.html" class="path-link"
+					>Поиск места захоронения</a
+				>
+				&lt; Анисимов Артём Сергеевич
+			</p>
+			<div class="burial-page__content">
+				<div class="burial-page__visual">
+					<div class="burial-page__switcher">
+						<input
+							id="image"
+							type="radio"
+							name="switcher"
+							value="image"
+							class="burial-page__switcher-item"
+							checked
+						/>
+						<label
+							id="imageLabel"
+							for="image"
+							class="burial-page__switcher-item-label"
+							>Фото</label
+						>
+						<input
+							id="map"
+							type="radio"
+							name="switcher"
+							value="map"
+							class="burial-page__switcher-item"
+						/>
+						<label
+							id="mapLabel"
+							for="map"
+							class="burial-page__switcher-item-label"
+							>Карта</label
+						>
+					</div>
+					<div class="burial-page__image-wrapper">
+						<img
+							src="./../../img/search/search/img4.jpg"
+							alt=""
+							class="burial-page__image"
+						/>
+					</div>
+					<div class="burial-page__map-wrapper" style="display: none">
+						<img
+							src="./../../img/burial-page/1.png"
+							alt=""
+							class="burial-page__map-image"
+						/>
+					</div>
+				</div>
+				<div class="burial-page__info">
+					<div class="burial-page__info-about-deceased">
+						<h2
+							class="burial-page__info-about-deceased-title section-title"
+						>
+							Подробная информация об умершем:
+						</h2>
+						<div class="burial-page__info-about-deceased-content">
+							<p
+								class="burial-page__ item burial-page__last-name"
+							>
+								Фамилия:
+								<span
+									class="burial-page__output burial-page__last-name-output"
+									>Анисимов</span
+								>
+							</p>
+							<p
+								class="burial-page__ item burial-page__first-name"
+							>
+								Имя:
+								<span
+									class="burial-page__output burial-page__first-name-output"
+									>Артём</span
+								>
+							</p>
+							<p
+								class="burial-page__ item burial-page__patronymic"
+							>
+								Отчество:
+								<span
+									class="burial-page__output burial-page__patronymic-output"
+									>Сергеевич</span
+								>
+							</p>
+							<p
+								class="burial-page__ item burial-page__date-of-birth"
+							>
+								Дата рождения:
+								<span
+									class="burial-page__output burial-page__date-of-birth-output"
+									>27.08.2000</span
+								>
+							</p>
+							<p
+								class="burial-page__ item burial-page__date-of-death"
+							>
+								Дата смерти:
+								<span
+									class="burial-page__output burial-page__date-of-death-output"
+									>31.10.2009</span
+								>
+							</p>
+							<p class="burial-page__ item burial-page__age">
+								Возраст:
+								<span
+									class="burial-page__output burial-page__age-output"
+									>9</span
+								>
+							</p>
+							<p
+								class="burial-page__ item burial-page__date-of-death-certificate"
+							>
+								Дата выдачи свидетельства о смерти:
+								<span
+									class="burial-page__output burial-page__date-of-death-certificate-output"
+									>-</span
+								>
+							</p>
+							<p
+								class="burial-page__ item burial-page__death-certificate-number"
+							>
+								Дата выдачи свидетельства о смерти:
+								<span
+									class="burial-page__output burial-page__death-certificate-number-output"
+									>-</span
+								>
+							</p>
+							<p class="burial-page__ item burial-page__cemetery">
+								Кладбище:
+								<span
+									class="burial-page__output burial-page__cemetery-output"
+									>Ястребковское</span
+								>
+							</p>
+							<p
+								class="burial-page__ item burial-page__date-of-burial"
+							>
+								Дата захоронения:
+								<span
+									class="burial-page__output burial-page__date-of-burial-output"
+									>-</span
+								>
+							</p>
+							<p
+								class="burial-page__ item burial-page__method-of-burial"
+							>
+								Способ погребения умершего:
+								<span
+									class="burial-page__output burial-page__method-of-burial-output"
+									>Гроб</span
+								>
+							</p>
+							<p
+								class="burial-page__ item burial-page__type-of-burial"
+							>
+								Тип погребения:
+								<span
+									class="burial-page__output burial-page__type-of-burial-output"
+									>В землю</span
+								>
+							</p>
+						</div>
+					</div>
+					<div class="burial-page__info-about-cemetery">
+						<h2
+							class="burial-page__info-about-cemetery-title section-title"
+						>
+							Место захоронения:
+						</h2>
+						<div class="burial-page__info-about-cemetery-content">
+							<p class="burial-page__ item burial-page__cemetery">
+								Кладбище:
+								<span
+									class="burial-page__output burial-page__cemetery-output"
+									>Ястребковское</span
+								>
+							</p>
+							<p
+								class="burial-page__ item burial-page__cemetery-address"
+							>
+								Адрес кладбища:
+								<span
+									class="burial-page__output burial-page__cemetery-address-output"
+									>Московская область, Одинцовский городской
+									округ, сельское поселение Никольское</span
+								>
+							</p>
+							<p class="burial-page__ item burial-page__status">
+								Статус:
+								<span
+									class="burial-page__output burial-page__status-output"
+									>Семейное</span
+								>
+							</p>
+							<p
+								class="burial-page__ item burial-page__sector-number"
+							>
+								Номер сектора места захоронения:
+								<span
+									class="burial-page__output burial-page__sector-number-output"
+									>4</span
+								>
+							</p>
+							<p
+								class="burial-page__ item burial-page__row-number"
+							>
+								Номер ряда места захоронения:
+								<span
+									class="burial-page__output burial-page__row-number-output"
+									>5</span
+								>
+							</p>
+							<p
+								class="burial-page__ item burial-page__burial-number"
+							>
+								Номер места захоронения:
+								<span
+									class="burial-page__output burial-page__burial-number-output"
+									>4705</span
+								>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wave-container">
+			<div class="waveWrapper waveAnimation rotated">
+				<div class="waveWrapperInner bgTop">
+					<div
+						class="wave waveTop"
+						style="
+							background-image: url('./../../img/general/waves/wave-top.png');
+						"
+					></div>
+				</div>
+				<div class="waveWrapperInner bgMiddle">
+					<div
+						class="wave waveMiddle"
+						style="
+							background-image: url('./../../img/general/waves/wave-mid.png');
+						"
+					></div>
+				</div>
+				<div class="waveWrapperInner bgBottom">
+					<div
+						class="wave waveBottom"
+						style="
+							background-image: url('./../../img/general/waves/wave-bot.png');
+						"
+					></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="./../../js/switcher.js"></script>
